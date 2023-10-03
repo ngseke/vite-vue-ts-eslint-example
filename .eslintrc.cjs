@@ -27,6 +27,7 @@ module.exports = {
         parser: '@typescript-eslint/parser',
         extraFileExtensions: ['.vue'],
     },
+    ignorePatterns: ['dist'],
     "plugins": [
         "vue"
     ],
